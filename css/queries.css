@@ -1,0 +1,78 @@
+/* 320px (iPhone) */
+@media screen and (max-width:320px) {
+}
+/* 480px (WVGA - Low End Windows Phone) */
+@media screen and (max-width:480px) {
+	.wrapper { background: #f3f5f8; height: 640px; }
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+}
+/* xGA iPad */
+@media screen and (max-width:1024px) {
+	.wp3 { background-position: 50px 0; }
+	.swag { background-attachment: scroll; }
+	.subscribe { background-attachment: scroll; }
+}
+/* 1200px (Small Desktop, Netbook) */
+@media screen and (max-width:1280px) {
+	.wp3 { background-position: 50px 0; }
+}
+/* Bootstrap 990px Breakpoint to 480px */
+@media screen and (min-width:480px) and (max-width:991px) {
+	.iphone { display: none; }
+	.fluid-white { display: none; }
+	.wrapper { background: #f3f5f8; height: 540px; }
+	.wp2, .wp4, .wp5, .light-box { margin-bottom: 30px; }
+	.legals { text-align: center; margin: 0; padding: 0; }
+	.credit { text-align: center; }
+}
+@media screen and (max-width: 768px) {
+  .hero {
+	margin: 0px;
+	background-image: url(../img/top-bg2.jpg);
+	background-position:  center top;
+	width: 100%;
+	text-align: center;
+	display: inline-block;
+	background-repeat: no-repeat;
+	-webkit-background-size: auto;
+	-moz-background-size: auto;
+	-o-background-size: auto;
+	background-size: auto;
+	height: auto;
+	padding-top: 35px;
+	padding-right: 0;
+	padding-bottom: 100px;
+	padding-left: 0;
+	background-attachment: fixed;
+}
+  .inner {
+	margin-top: -80px;
+	z-index: 111;
+}
+.animated fadeInDown {
+	margin-top: -60px;
+}
+#nav-toggle span, #nav-toggle span:before, #nav-toggle span:after {
+	cursor: pointer;
+	border-radius: 1px;
+	-moz-border-radius: 1px;
+	-webkit-border-radius: 1px;
+	-o-border-radius: 1px;
+	height: 5px;
+	width: 35px;
+	position: absolute;
+	display: block;
+	content: '';
+	background-color: #000;
+}
+.col-sm-offset-2 {
+	width: 85%;
+}
+.col-xs-offset-2 {
+	margin-left: 8%;
+	}
+}

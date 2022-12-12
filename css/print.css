@@ -1,0 +1,9 @@
+@media print{
+
+.noprint{
+display:none;
+}
+.smp{
+display:none;
+}
+}

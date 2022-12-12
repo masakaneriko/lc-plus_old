@@ -1,0 +1,98 @@
+﻿@charset "utf-8";
+/* =======================================
+
+	 CSS BrowserReset BaseElements
+	
+	 (C)BLACKFLAG.NET ALL RIGHTS RESERVED.
+	 http://black-flag.net/
+
+ ======================================= */
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, font, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	font-family: inherit;
+	font-style: inherit;
+	font-weight: inherit;
+/*	outline: 0;*/
+}
+
+html {
+	font-size: 75%;
+	-webkit-text-size-adjust: none;
+}
+
+img {
+	vertical-align: text-bottom;
+	-ms-interpolation-mode: bicubic;
+}
+
+a {
+	-webkit-tap-highlight-color: transparent;
+}
+
+strong {
+	font-weight: bold;
+}
+
+ol, ul {
+	list-style: none;
+}
+
+table {
+	border-collapse: collapse;
+	/*	border-collapse: separate;*/
+	border-spacing: 0;
+	margin-bottom: 10px;
+	border-top-width: thin;
+	border-top-style: solid;
+	border-top-color: #CCC;
+	margin-top: 8px;
+}
+
+caption, th, td {
+	text-align: left;
+	vertical-align: top;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #CCC;
+	padding-top: 6px;
+	padding-right: 10px;
+	padding-bottom: 6px;
+	padding-left: 10px;
+}
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: "";
+}
+
+blockquote, q {
+	quotes: "" "";
+}
+
+a:focus {
+/*\*/
+	overflow: hidden;
+/**/
+}
+
+option {
+	padding-right: 10px;
+}
+
+/* ------------------------------
+	HTML5 ELEMENTS
+------------------------------ */
+header,article,aside,section,footer,
+nav,menu,details,hgroup,summary {
+	display: block;
+}

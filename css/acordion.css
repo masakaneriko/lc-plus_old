@@ -1,0 +1,54 @@
+li{
+list-style: none;
+cursor: pointer;
+}
+ul.acordion{
+
+}
+ul.acordion li {
+border-bottom: solid 1px #808080;
+}
+
+ul.acordion li:first-child {
+border-top: solid 1px #808080;
+}
+ul.acordion li ul {
+margin: 0;
+padding: 0;
+border: none;
+}
+ul.acordion li ul li {
+background: #fff;
+}
+ul.acordion li ul li:last-child{
+border-bottom: none;
+}
+ul.acordion li ul li a {
+color: #696969;
+display: block;
+padding: 10px;
+text-decoration: none;
+}
+ul.acordion li .none-submenu {
+background: url(trigger-arrow.png) no-repeat 98% 50%;
+background-size: 2%;
+display: block;
+padding: 15px;
+}
+ul.acordion li .active-submenu {
+background: url(triggeractive-arrow.png) no-repeat 98% 50%;
+display: block;
+padding: 15px;
+}
+@media only screen and (max-width: 600px) {
+ul.acordion li .none-submenu{
+	background-image: url(img/trigger-arrow.png);
+	background-repeat: no-repeat;
+	background-position: 96% 50%;
+}
+ul.acordion li .active-submenu{
+	background-image: url(img/triggeractive-arrow.png);
+	background-repeat: no-repeat;
+	background-position: 96% 50%;
+}
+}

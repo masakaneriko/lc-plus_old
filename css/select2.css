@@ -1,0 +1,13 @@
+@charset "utf-8";
+/* CSS Document */
+
+@import url("reset.css") screen and (min-width:0px) and (max-width: 5000px);
+@import url("imagelightbox.css") screen and (min-width:0px) and (max-width: 5000px);
+
+@import url("idx.css") screen and (min-width:740px) and (max-width: 5000px);
+@import url("base2.css") screen and (min-width:740px) and (max-width: 5000px);
+@import url("common.css") screen and (min-width:740px) and (max-width: 5000px);
+
+@import url("idx_s.css") screen and (min-width:0px) and (max-width: 739px);
+@import url("base_s2.css") screen and (min-width:0px) and (max-width: 739px);
+@import url("common_s.css") screen and (min-width:0px) and (max-width: 739px);
