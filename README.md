@@ -59,7 +59,8 @@ git config —global user.email “”
 ### On GitHub
 1. Open [https://github.com/lc-kokoku/LP](https://github.com/lc-kokoku/LP)
 2. Click `Code`
-3. Select `Https` (SSH for advanced)
+3. Select `Https`
+    > *SSH for advanced*
 4. Click `Copy`
 
 ### In the terminal
@@ -104,7 +105,8 @@ git commit -m “”
 ```
 git status
 ```
-7. Push branch to remote  *(-u only for first time)*
+7. Push branch to remote
+    > *`-u` only for first time*
 ```
 git push -u origin new-branch
 ```
@@ -112,8 +114,10 @@ git push -u origin new-branch
 
 
 ## 8. Pull Requests (PR)
-On GitHub
-1. 
+### On GitHub
+1. Click the `Compare and pull request` button
+    > *Make sure your branch is selected*
+2. Add some comments if you want
 <br>
 
 ## References
