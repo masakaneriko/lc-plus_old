@@ -1,4 +1,5 @@
 # Training
+A simple training agenda to get familiar with Git
 <br>
 <br>
     
@@ -119,6 +120,10 @@ git push -u origin new-branch
     > *Make sure your branch is selected*
 2. Add some comments if you want
 <br>
+
+## 9. Other things to keep in mind
+- switch to main, delete branch, pull origin main
+- 
 
 ## References
 - https://githubtraining.github.io/training-manual/
