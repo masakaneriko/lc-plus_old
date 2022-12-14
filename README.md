@@ -43,10 +43,10 @@ git version
 ```
 2. Set user name and email
 ```
-git config —global user.name “”
+git config --global user.name ""
 ```
 ```
-git config —global user.email “”
+git config --global user.email ""
 ```
 ### Git Commands
 | Command | Description |
