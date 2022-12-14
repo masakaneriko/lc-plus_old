@@ -107,7 +107,6 @@ git commit -m “”
 git status
 ```
 7. Push branch to remote
-    > *`-u` only for first time*
 ```
 git push -u origin new-branch
 ```
