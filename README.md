@@ -111,31 +111,35 @@ git checkout -b this-is-my-new-branch
 ```
 
 2. Make file changes
-3. Add it to staging
+3. Check Status
+```
+git status
+```
+5. Add it to staging
 
 ```
 git add .
 ```
 
-4. Check Status
+5. Check Status
 
 ```
 git status
 ```
 
-5. Commit the change with a comment
+6. Commit the change with a comment
 
 ```
 git commit -m "add comments here"
 ```
 
-6. Check Status
+7. Check Status
 
 ```
 git status
 ```
 
-7. Push branch to remote
+8. Push branch to remote
 
 ```
 git push -u origin this-is-my-new-branch
