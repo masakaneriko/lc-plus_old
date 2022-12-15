@@ -304,7 +304,7 @@ Hero
 ========================================================================== */
 .hero { background: url('../img/top-bg.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 200px 0; height: auto;  }
 .animated fadeInDown {
-	max-width; 432px;}
+	max-width: 432px;}
 .hero2 { background: url('../img/ipad2.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 50px 0; height: auto; }
 .hero3 { background: url('../img/ipad2.png') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 50px 0; height: auto; }
 .hero h1 { font-size: 40px; letter-spacing: 12px; margin: 10px; }
@@ -342,7 +342,7 @@ iPhone Section
 Swag
 ========================================================================== */
 .swag {
-	background: gray;
+	background: url('../img/bg3.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
