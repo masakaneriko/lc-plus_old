@@ -112,10 +112,12 @@ git checkout -b this-is-my-new-branch
 
 2. Make file changes
 3. Check Status
+
 ```
 git status
 ```
-5. Add it to staging
+
+4. Add it to staging
 
 ```
 git add .
