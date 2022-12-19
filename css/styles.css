@@ -386,7 +386,7 @@ a.expand { display: block; position: absolute; z-index: 100; text-align: center;
 /* ==========================================================================
 Subscribe
 ========================================================================== */
-.subscribe { background: url('../img/bg2.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 160px 0 200px; }
+.subscribe { background: url('../img/company/company_01.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 160px 0 200px; }
 .subscribe h1 { color: #fff; margin-bottom: 40px; }
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
