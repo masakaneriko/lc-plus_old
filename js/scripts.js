@@ -118,7 +118,7 @@ $(window).load(function() {
 		}
 	});
 
-	$('#servicesSlider').flexslider({
+	$('#webSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
@@ -129,7 +129,18 @@ $(window).load(function() {
 		}
 	});
 
-	$('#teamSlider').flexslider({
+	$('#graphicsSlider').flexslider({
+		animation: "slide",
+		directionNav: false,
+		controlNav: true,
+		touch: true,
+		pauseOnHover: true,
+		start: function() {
+			$.waypoints('refresh');
+		}
+	});
+
+	$('#kanbanSlider').flexslider({
 		animation: "slide",
 		directionNav: false,
 		controlNav: true,
