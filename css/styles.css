@@ -302,6 +302,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
+.hero { background: url('../img/company/company_05.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 200px 0; height: auto;  }
 .hero { background: white; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 200px 0; height: auto;  }
 .animated fadeInDown {
 	max-width: 432px;}
@@ -342,7 +343,7 @@ iPhone Section
 Swag
 ========================================================================== */
 .swag {
-	background: gray;
+	background: url('../img/company/company_01.jpg') no-repeat center center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -360,6 +361,9 @@ Swag
 	text-transform: uppercase;
 	letter-spacing: 5px;
 }
+.swag h1 { color: white; text-shadow: 0 0 5px #080808;}
+.swag h1 font { color: white; text-shadow: 0 0 5px #080808;}
+
 .swag h1 span { display: block; font-size: 25px; margin-top: 20px; }
 .down-arrow-btn { width: 50px; height: 50px; border-radius: 50%; -moz-border-radius: 50%; -webkit-border-radius: 50%; -o-border-radius: 50%; background: rgba(61, 201, 179, 0.8); display: inline-block; margin: 10px auto 40px; color: #fff; font-size: 24px; line-height: 50px; text-align: center; }
 .down-arrow-btn:hover, .down-arrow-btn:focus { color: #fff; background: rgba(61, 201, 179, 1); }
@@ -388,6 +392,8 @@ Subscribe
 ========================================================================== */
 .subscribe { background: url('../img/company/company_04.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; background-attachment: fixed; padding: 160px 0 200px; }
 .subscribe h1 { color: #080808; margin-bottom: 40px; }
+.subscribe h1 { color: white; text-shadow: 0 0 5px #080808; margin-bottom: 40px; }
+.subscribe h1 font { color: white; text-shadow: 0 0 5px #080808; }
 .subscribe h1 span { display: block; font-size: 15px; text-transform: uppercase; font-weight: bold; margin-top: 20px; letter-spacing: 1px; }
 .subscribe input[type=text] { background-color: rgba(255, 255, 255, 0.1); border: solid 1px #fff; padding: 20px; width: 30%; color: #fff; }
 .subscribe input[type=submit] { background: rgba(61, 201, 179, 0.5); border: solid 1px rgba(61, 201, 179, 0.5); padding: 20px; color: #fff; text-transform: uppercase; letter-spacing: 1px; transition: all 0.5s ease; -moz-transition: all 0.5s ease; -webkit-transition: all 0.5s ease; -o-transition: all 0.5s ease; }
