@@ -286,7 +286,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 	position: absolute;
 	display: block;
 	content: '';
-	background-color: #3dc9b3;
+	background-color: #080808;
 }
 #nav-toggle span:before { top: -10px; }
 #nav-toggle span:after { bottom: -10px; }
