@@ -461,3 +461,97 @@ Waypoints
     .pc_led {display:none;}
     .smp_led {display:block}
 }
+
+
+/* ==========================================================================
+LC-JAPAN Footer
+========================================================================== */
+.x-colophon.bottom {
+    padding: 10px 0;
+    font-size: 12px;
+    text-align: center;
+    color: #7a7a7a;
+    background-color: white;
+}
+
+.entry-header,
+.entry-content {
+    font-size: 14px;
+}
+
+.entry-content {
+    margin-top: 1.25em;
+}
+
+.c {
+    font-size: 10px;
+    color: #666;
+}
+
+.x-colophon.bottom .x-nav {
+    margin: 10px 0;
+    line-height: 1.3;
+    padding: 0;
+}
+
+.x-colophon.bottom .x-nav li {
+    margin: 0 0.5em;
+    display: inline-block
+}
+
+.x-colophon.bottom .x-nav li a {
+    display: block;
+    font-weight: 400;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #CC9966;
+    -webkit-font-smoothing: initial;
+    text-shadow: initail;
+}
+
+.x-colophon.bottom .x-nav li a:hover {
+    background-color: transparent
+}
+
+.x-colophon.bottom .x-social-global {
+    margin: 10px 0
+}
+
+.x-colophon.bottom .x-social-global a {
+    margin: 0 1.25%;
+    font-size: 21px
+}
+
+.x-colophon.bottom .x-social-global a.foursquare {
+    font-size: 20px
+}
+
+.x-colophon.bottom .x-colophon-content {
+    margin: 30px 0 10px;
+    font-weight: 400;
+    letter-spacing: 2px;
+    line-height: 1.3
+}
+
+.x-colophon .widget {
+    margin-top: 3em;
+    text-align: center;
+}
+
+.com {
+    -webkit-border-radius: 5px;
+    text-align: center;
+    margin-right: auto;
+    margin-left: auto;
+    font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "メイリオ", Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+    color: #333;
+}
+
+.widget_calendar p {
+    color: #7a7a7a;
+    font-size: 12px;
+    text-align: center;
+    line-height: 24px;
+}
