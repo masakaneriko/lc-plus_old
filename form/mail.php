@@ -113,7 +113,7 @@ if (version_compare(PHP_VERSION, '5.1.0', '>=')) {//PHP5.1.0以上の場合の�
 $site_top = "contact.html";
 
 // 管理者メールアドレス ※メールを受け取るメールアドレス(複数指定する場合は「,」で区切ってください 例 $to = "aa@aa.aa,bb@bb.bb";)
-$to = "s-kurata@c-plus.net,katou@c-plus.net,t-saitou@c-plus.net";
+$to = "yamanaka@lcom-group.jp";
 
 //フォームのメールアドレス入力箇所のname属性の値（name="○○"　の○○部分）
 $Email = "Email";
@@ -124,7 +124,7 @@ $Email = "Email";
 ------------------------------------------------------------------------------------------------*/
 
 //スパム防止のためのリファラチェック（フォームページが同一ドメインであるかどうかのチェック）(する=1, しない=0)
-$Referer_check = 1;
+$Referer_check = 0;
 
 //リファラチェックを「する」場合のドメイン ※以下例を参考に設置するサイトのドメインを指定して下さい。
 $Referer_check_domain = "https://www.c-plus.net";
@@ -155,7 +155,7 @@ $confirmDsp = 1;
 $jumpPage = 0;
 
 // 送信完了後に表示するページURL（上記で1を設定した場合のみ）※httpから始まるURLで指定ください。
-$thanksPage = "https://www.c-plus.net/test/form/contact.html";
+$thanksPage = "";
 
 // 必須入力項目を設定する(する=1, しない=0)
 $requireCheck = 1;

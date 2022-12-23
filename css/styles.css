@@ -286,7 +286,7 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 	position: absolute;
 	display: block;
 	content: '';
-	background-color: #3dc9b3;
+	background-color: #080808;
 }
 #nav-toggle span:before { top: -10px; }
 #nav-toggle span:after { bottom: -10px; }
@@ -302,8 +302,8 @@ nav ul li a:hover, nav ul li a:focus { text-decoration: none; color: rgba(255, 2
 /* ==========================================================================
 Hero
 ========================================================================== */
-.hero { background: url('../img/company/company_05.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 200px 0; height: auto;  }
-.hero { background: white; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 200px 0; height: auto;  }
+.hero { background: url('../img/company/company_05-2.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 200px 0; height: auto;  }
+.hero { background: url('../img/company/KIMG0019.JPG') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 200px 0; height: auto;  }
 .animated fadeInDown {
 	max-width: 432px;}
 .hero2 { background: url('../img/ipad2.jpg') no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 35px 0 50px 0; height: auto; }
@@ -313,7 +313,7 @@ Hero
 	color: #FF9900;
 	display: inline-block;
 }
-.hero p { letter-spacing: 1px; }
+.hero p { letter-spacing: 1px; font-weight: 600;}
 .learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 .logo-link a:hover img {
